@@ -189,18 +189,18 @@ export default function Home() {
           </div>
           <div className="grid gap-8 lg:grid-cols-3">
             <p>
-              Introducing our newest offering: a refreshing water that's as cool
-              and invigorating as a dip in a mountain stream. With every sip,
-              you'll taste the crisp purity of the water, straight from its
-              source. Our water is carefully filtered and treated to ensure its
-              quality, while retaining its natural taste and refreshing
+              Introducing our newest offering: a refreshing water that is as
+              cool and invigorating as a dip in a mountain stream. With every
+              sip, you will taste the crisp purity of the water, straight from
+              its source. Our water is carefully filtered and treated to ensure
+              its quality, while retaining its natural taste and refreshing
               properties.
             </p>
             <p>
-              So why not give our refreshing water a try? It's the perfect way
+              So why not give our refreshing water a try? It is the perfect way
               to hydrate, refresh, and invigorate yourself, no matter what your
               day brings. With its crisp, clean taste and refreshing properties,
-              it's sure to become your go-to beverage for all your hydration
+              it is sure to become your go-to beverage for all your hydration
               needs.
             </p>
           </div>
