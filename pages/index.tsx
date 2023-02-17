@@ -133,7 +133,7 @@ export default function Home() {
           width={1009}
           draggable={true}
           ref={bottleImage}
-          className="absolute top-1/2 left-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 object-contain sm:w-1/3 md:w-1/4 lg:h-4/5 lg:w-fit"
+          className="absolute top-1/2 left-1/2 h-1/2 -translate-x-1/2 -translate-y-1/2 object-contain sm:w-1/3 md:w-1/4 lg:h-4/5 lg:w-fit"
         />
         {/* Text Paragraph */}
         <div className="z-[1] w-auto max-w-[25ch] self-end text-right text-sm lg:w-[25ch] lg:text-base">
