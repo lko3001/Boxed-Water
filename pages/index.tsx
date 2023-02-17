@@ -245,7 +245,10 @@ export default function Home() {
         </h1>
         <div className="items-top mx-auto flex max-w-7xl flex-row flex-wrap justify-center gap-4">
           {reviews.map((review) => (
-            <div className="max-w-sm p-8 outline outline-1 transition-colors duration-100 hover:bg-black hover:text-white">
+            <div
+              className="max-w-sm p-8 outline outline-1 transition-colors duration-100 hover:bg-black hover:text-white"
+              key={review.review}
+            >
               <h2 className="mb-4 text-center text-2xl font-bold capitalize">
                 {review.name}
               </h2>
@@ -261,6 +264,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-5xl flex-row flex-wrap items-center justify-center gap-8">
           {team.map((member) => (
             <TeamCard
+              key={member.image}
               name={member.name}
               role={member.role}
               image={member.image}
