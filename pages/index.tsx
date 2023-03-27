@@ -120,7 +120,7 @@ export default function Home() {
       </article>
       <section
         id="section2"
-        className="relative flex h-screen flex-row-reverse items-center justify-between gap-4 bg-ice bg-contain bg-center bg-no-repeat p-12 text-sm bg-blend-screen lg:flex-col lg:gap-0 lg:p-20 2xl:p-52"
+        className="relative overflow-x-hidden flex h-screen flex-row-reverse items-center justify-between gap-4 bg-ice bg-contain bg-center bg-no-repeat p-12 text-sm bg-blend-screen lg:flex-col lg:gap-0 lg:p-20 2xl:p-52"
         style={{
           backgroundImage:
             "url('https://themayanagari.com/wp-content/uploads/2020/09/water-splass-png-image-download.jpg')",
